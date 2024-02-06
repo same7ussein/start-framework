@@ -1,0 +1,7 @@
+.about {
+    height: 98vh;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

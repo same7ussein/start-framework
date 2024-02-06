@@ -1,0 +1,52 @@
+.contact {
+    height: 100vh;
+}
+
+.header {
+    color: #2C3E50;
+}
+
+.header .header__icon::before {
+    background-color: #2C3E50;
+}
+
+.header .header__icon::after {
+
+    background-color: #2C3E50;
+}
+form {
+    width: 70%;
+    margin: auto;
+}
+.form__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+form label {
+    align-self: flex-start;
+    padding-left: 10px;
+    position: relative;
+    bottom: -30px;
+    z-index: -1;
+    transition: bottom 0.5s;
+}
+
+form input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 0 10px 10px;
+    outline: none;
+}
+
+button {
+    margin-left: 20px;
+}
+
+.label__show {
+    bottom: 5px !important;
+}

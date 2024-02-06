@@ -1,0 +1,23 @@
+nav {
+    background-color: #2C3E50;
+    padding: 10px 0;
+    transition: 0.3s ease;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.navbar-nav a {
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.navbar.minimized {
+     padding: 0;
+}

@@ -1,0 +1,13 @@
+.notFound {
+    background-color: var(--main-color);
+    height: 98vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 300px;
+    margin: 40px 0 20px 0;
+}

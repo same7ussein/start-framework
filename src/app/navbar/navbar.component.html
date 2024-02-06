@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg fixed-top" [ngClass]="{'minimized': isMinimized}">
+    <div class="container">
+        <a class="navbar-brand logo"  routerLink="home">START FRAMEWORK</a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,60 @@
+.header {
+    color: #2C3E50;
+}
+
+.header .header__icon::before {
+    background-color: #2C3E50;
+}
+
+.header .header__icon::after {
+
+    background-color: #2C3E50;
+}
+
+.portfolio__card .inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.portfolio__card {
+    border-radius: 10px;
+}
+
+.portfolio__layer {
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9ce6;
+    top: 0;
+    border-radius: 10px;
+    transition: 0.5s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.portfolio__layer i {
+    font-size: 80px;
+    color: white;
+}
+
+.portfolio__card .inner:hover .portfolio__layer {
+    opacity: 1;
+}
+
+/* ******** modal ******** */
+.modall {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 999999999999;
+    background-color: rgba(13, 110, 253, 0.25);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.inner__modall {
+    width: 600px;
+    height: 400px;
+}

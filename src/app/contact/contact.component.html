@@ -1,0 +1,29 @@
+<section class="contact">
+    <div class="container">
+        <div class="header ">
+            <h1>CONATCT SECTION</h1>
+            <div class="header__icon position-relative mb-4">
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <form class="mt-5">
+            <div class="form__card ">
+                <label>userName</label>
+                <input (keyup)="showLabel($event)" type="text" name="uName"  placeholder="enter you name">
+            </div>
+            <div class="form__card">
+                <label>userAge</label>
+                <input (keyup)="showLabel($event)" type="text" name="uName"  placeholder="enter your age ">
+            </div>
+            <div class="form__card">
+                <label>userEmail</label>
+                <input (keyup)="showLabel($event)" type="email" name="uName"  placeholder="enter your email">
+            </div>
+            <div class="form__card">
+                <label>userPassword</label>
+                <input (keyup)="showLabel($event)" type="password" name="uName" placeholder="enter your password">
+            </div>
+            <button class="btn btn-success">Send Message</button>
+        </form>
+    </div>
+</section>

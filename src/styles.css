@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+/* ************ Root Variabls********** */
+:root {
+    --header-font: 'Montserrat', sans-serif;
+    --text-font: 'Poppins', sans-serif;
+    --main-color: #1abc9c;
+}
+
+/* ********** Global ********* */
+
+body {
+    font-family: var(--text-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+    font-family: var(--header-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.active {
+    background-color: var(--main-color);
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+.header h1 {
+    font-weight: 700;
+    margin: 15px 0;
+}
+.header__icon {
+    width: fit-content;
+    margin: auto;
+}
+.header .header__icon::before {
+    content: '';
+    position: absolute;
+    width: 85px;
+    height: 4px;
+    background-color: white;
+    left: 200%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header .header__icon::after {
+    content: '';
+    position: absolute;
+    width: 85px;
+    height: 4px;
+    background-color: white;
+    right: 200%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ********** media ******** */
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 767px) {
+    form {
+        width: 100% !important;
+    }
+    .logo {
+        font-size: calc(1.375rem + 1.5vw) !important;
+    }
+}
+
+@media screen and (max-width: 480px) {}

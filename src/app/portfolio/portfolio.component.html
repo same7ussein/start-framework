@@ -1,0 +1,65 @@
+<section class="portfolio">
+    <div class="header ">
+        <h1>START FRAMEWORK</h1>
+        <div class="header__icon position-relative mb-4">
+            <i class="fas fa-star"></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-5 pb-5">
+            <div (click)="openModal($event)" class="portfolio__card col-lg-4 col-md-6">
+                <div  class="inner position-relative">
+                    <img src="./assets/image/portfolio/poert1.png" width="100%" alt="">
+                    <div class="portfolio__layer position-absolute d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="openModal($event)" class="portfolio__card col-lg-4 col-md-6">
+                <div class="inner position-relative">
+                    <img src="./assets/image/portfolio/port2.png" width="100%" alt="">
+                    <div class="portfolio__layer position-absolute d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="openModal($event)" class="portfolio__card col-lg-4 col-md-6">
+                <div class="inner position-relative">
+                    <img src="./assets/image/portfolio/port3.png" width="100%" alt="">
+                    <div class="portfolio__layer position-absolute d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="openModal($event)" class="portfolio__card col-lg-4 col-md-6">
+                <div class="inner position-relative">
+                    <img src="./assets/image/portfolio/poert1.png" width="100%" alt="">
+                    <div class="portfolio__layer position-absolute d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="openModal($event)" class="portfolio__card col-lg-4 col-md-6">
+                <div class="inner position-relative">
+                    <img src="./assets/image/portfolio/port2.png" width="100%" alt="">
+                    <div class="portfolio__layer position-absolute d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="openModal($event)" class="portfolio__card col-lg-4 col-md-6">
+                <div class="inner position-relative">
+                    <img src="./assets/image/portfolio/port3.png" width="100%" alt="">
+                    <div class="portfolio__layer position-absolute d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div (click)="closeModal($event)" *ngIf="flag == true"  class="modall">
+            <div class="inner__modall">
+                <img [src]="imgSrc" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+</section>

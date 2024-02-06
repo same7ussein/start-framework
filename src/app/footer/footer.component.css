@@ -1,0 +1,38 @@
+footer {
+    background-color: #2C3E50;
+}
+
+footer .footer__cards {
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+footer h3 {
+    font-weight: 700;
+}
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+}
+.card__info p{
+    margin: 0;
+}
+.footer__icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer__icons i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.copyright {
+    background-color: #1A252F;
+}
+.copyright p {
+    margin: 0;
+}
